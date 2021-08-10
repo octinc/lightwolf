@@ -1,0 +1,24 @@
+{
+  "name": "lightwolf",
+  "version": "0.1.0",
+  "description": "A light web server of werewolf killing",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octinc/lightwolf.git"
+  },
+  "keywords": [
+    "web",
+    "lightwolf",
+    "werewolf-kill"
+  ],
+  "author": "octinc, keywet06",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/octinc/lightwolf/issues"
+  },
+  "homepage": "https://github.com/octinc/lightwolf#readme"
+}
