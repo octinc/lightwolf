@@ -2,9 +2,9 @@
   "name": "lightwolf",
   "version": "0.1.0",
   "description": "A light web server of werewolf killing",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/octinc/lightwolf/issues"
   },
-  "homepage": "https://github.com/octinc/lightwolf#readme"
+  "homepage": "https://github.com/octinc/lightwolf#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "js-sha3": "^0.8.0",
+    "mysql": "^2.18.1"
+  }
 }
